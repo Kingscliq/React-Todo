@@ -6,7 +6,7 @@ function TaskList(props) {
       {props.Tasks.map((task, index) => {
         return (
           <Card key={index}>
-            {task}
+            <div class="task">{task}</div>
             <button
               onClick={() => {
                 props.RequestDelete(index);
