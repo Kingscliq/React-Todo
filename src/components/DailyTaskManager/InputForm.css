@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 form {
 }
 input {
   width: 50vw;
   height: 30px;
   padding: 3px;
+  border-radius: 9px;
 }
 .btn {
   margin-left: 20px;
@@ -11,8 +13,14 @@ input {
   border: 2px solid black;
   background-color: #393e46;
   color: white;
+  width: 100px;
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 22px;
 }
 .btn:disabled {
   background-color: grey;
   color: white;
+}
+.btn:hover{
+  font-weight: bold; 
 }
